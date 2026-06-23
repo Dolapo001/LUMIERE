@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "backend/core/wsgi.py",
+      "use": "@vercel/python",
+      "config": { "maxLambdaSize": "15mb", "runtime": "python3.12" }
+    },
+    {
+      "src": "frontend/LUMIERE-frontend/package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/backend/core/wsgi.py"
+    },
+    {
+      "source": "/admin/(.*)",
+      "destination": "/backend/core/wsgi.py"
+    },
+    {
+      "source": "/static/(.*)",
+      "destination": "/backend/staticfiles/$1"
+    }
+  ]
+}
