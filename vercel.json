@@ -26,6 +26,10 @@
     {
       "source": "/static/(.*)",
       "destination": "/backend/staticfiles/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/frontend/LUMIERE-frontend/$1"
     }
   ]
 }
