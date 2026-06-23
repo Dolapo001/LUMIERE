@@ -1,0 +1,15 @@
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+.env
+.venv/
+venv/
+ENV/
+env/
+staticfiles/
+faiss_index/
+.DS_Store

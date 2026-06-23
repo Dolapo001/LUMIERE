@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 ab0217447cb1e7d7cb5a5d047ffe605fb4419b84 Antigravity Assistant <antigravity@google.com> 1776695194 +0100	commit (initial): chore: initial deployment commit with Vercel config
+ab0217447cb1e7d7cb5a5d047ffe605fb4419b84 71dd1dee7c2d45355c3a4f9e6c4034d1c14e02c0 Dolapo001 <adedolapovictoria927@gmail.com> 1776695425 +0100	commit (amend): chore: initial deployment commit with Vercel config
+71dd1dee7c2d45355c3a4f9e6c4034d1c14e02c0 63249105e2c243d904fa5059af9c98b38ca901d0 Dolapo001 <adedolapovictoria927@gmail.com> 1776697623 +0100	commit: fix: add 'stock' property to Product model to resolve AttributeError in cart validation
+63249105e2c243d904fa5059af9c98b38ca901d0 7040797ec6b6de24590eec7b2d2e909be8c3fdc1 Dolapo001 <adedolapovictoria927@gmail.com> 1776697657 +0100	commit: fix: correctly update Inventory quantity during checkout instead of attempting to save Product property
+7040797ec6b6de24590eec7b2d2e909be8c3fdc1 fd79628858ff13d373a989fe5f2af823ba0c3265 Dolapo001 <adedolapovictoria927@gmail.com> 1782245278 +0100	commit: feat: expand seed data with new products and trigger RAG index sync after seeding
